@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DeepSeek SVG Image Generation</title>
+  <title>AI Pixel Image Generation</title>
   <style>
     * {
       box-sizing: border-box;
@@ -37,7 +38,7 @@
 
     .hero-title {
       font-size: clamp(38px, 6vw, 78px);
-      font-weight: 500;
+      font-weight: 600;
       line-height: 1.12;
       color: #ffffff;
       margin-bottom: 28px;
@@ -72,16 +73,31 @@
     .hero-button:active {
       transform: translateY(0);
     }
+
+    /* 👇 新增：像素风标题效果 */
+    .pixel {
+      font-family: monospace;
+      letter-spacing: 2px;
+    }
   </style>
 </head>
 <body>
   <section class="hero">
     <div class="hero-content">
-      <h1 class="hero-title">DeepSeek SVG image generation</h1>
+      
+      <h1 class="hero-title pixel">
+        AI Pixel Image Generation
+      </h1>
+
       <p class="hero-subtitle">
-        Create visual results through AI-generated SVG code and structured image composition.
+        Generate 10×10 pixel art using AI-generated structured code.  
+        Convert text into color blocks and render images directly in the browser.
       </p>
-      <a class="hero-button" href="/image-maker">Start Free Now</a>
+
+      <a class="hero-button" href="/image-maker">
+        Start Creating Pixels
+      </a>
+
     </div>
   </section>
 </body>
