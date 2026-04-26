@@ -8,6 +8,7 @@ This project lets a user type a prompt, sends that prompt to a DeepSeek reasoner
 
 Instead of using a normal image model, this project uses a **text model** to generate structured pixel data.
 
+install:pip install flask openai
 ## How it works
 
 The system works like this:
@@ -19,4 +20,4 @@ The system works like this:
 ```text
 (::0000011111 0000011111 0000011111 ...::)
 
-##install:pip install flask openai
+
