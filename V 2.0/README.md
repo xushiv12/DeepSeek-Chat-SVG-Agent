@@ -4,7 +4,7 @@ A tiny AI pixel-art image generator powered by DeepSeek chat model.
 
 ## What it does
 
-This project lets a user type a prompt, sends that prompt to a DeepSeek chat model, asks the model to return a **10×10 pixel code**, and then renders the result as a colored image in the browser.
+This project lets a user type a prompt, sends that prompt to a DeepSeek reasoner model, asks the model to return a **10×10 pixel code**, and then renders the result as a colored image in the browser.
 
 Instead of using a normal image model, this project uses a **text model** to generate structured pixel data.
 
@@ -18,3 +18,5 @@ The system works like this:
 
 ```text
 (::0000011111 0000011111 0000011111 ...::)
+```
+install:pip install flask openai
