@@ -18,5 +18,5 @@ The system works like this:
 
 ```text
 (::0000011111 0000011111 0000011111 ...::)
-```
+```text
 install:pip install flask openai
