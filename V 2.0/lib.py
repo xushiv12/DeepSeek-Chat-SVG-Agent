@@ -18,7 +18,7 @@ def deepseek2(msg):
     base_url="https://api.deepseek.com"
     )
     see=chat.chat.completions.create(
-    model="deepseek-chat",
+    model="deepseek-reasoner",
     messages=[{"role":"user","content":msg}]
     )
     return see.choices[0].message.content
